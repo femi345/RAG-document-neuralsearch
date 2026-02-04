@@ -1,0 +1,38 @@
+# Rust
+rust/target/
+**/*.rs.bk
+
+# Python
+ml/__pycache__/
+ml/**/__pycache__/
+ml/.venv/
+ml/*.egg-info/
+ml/cortex_ml/proto/*_pb2*.py
+ml/cortex_ml/proto/*_pb2*.pyi
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data volumes
+postgres-data/
+weaviate-data/
+model-cache/
+ollama-data/
