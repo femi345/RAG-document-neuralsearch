@@ -1,0 +1,17 @@
+[package]
+name = "cortex-store"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-common = { path = "../cortex-common" }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+sqlx = { workspace = true }
+reqwest = { workspace = true }
+tracing = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
