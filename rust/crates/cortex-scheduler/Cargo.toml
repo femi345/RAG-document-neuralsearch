@@ -1,0 +1,16 @@
+[package]
+name = "cortex-scheduler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-common = { path = "../cortex-common" }
+cortex-store = { path = "../cortex-store" }
+cortex-ingestion = { path = "../cortex-ingestion" }
+cortex-connectors = { path = "../cortex-connectors" }
+tokio = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+tracing = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
