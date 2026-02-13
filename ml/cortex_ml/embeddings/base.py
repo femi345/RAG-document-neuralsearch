@@ -1,0 +1,13 @@
+from abc import ABC, abstractmethod
+
+
+class EmbeddingProvider(ABC):
+    @abstractmethod
+    def embed(self, texts: list[str]) -> list[list[float]]:
+        """Generate embeddings for a batch of texts."""
+        ...
+
+    @abstractmethod
+    def dimensions(self) -> int:
+        """Return the embedding dimensions."""
+        ...
