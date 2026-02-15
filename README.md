@@ -1,4 +1,4 @@
-# rag-doc-neuralsearch
+# RAG-document-neuralsearch
 
 A RAG-powered semantic search engine that indexes your documents (PDFs, Notion, Slack, Gmail) and provides hybrid search + conversational Q&A with citations.
 
@@ -88,7 +88,7 @@ cortex/
 
 ```bash
 # Clone and configure
-git clone https://github.com/femi345/rag-doc-neuralsearch.git
+git clone https://github.com/femi345/RAG-document-neuralsearch.git
 cd cortex
 cp .env.example .env
 # Add your API keys to .env
